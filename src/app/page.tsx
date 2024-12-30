@@ -20,7 +20,7 @@ export default function Home() {
               200,
               "emoji past ",
               250,
-              "emoji pastas archive project",
+              "emoji pasta archive project",
               () => {
                 console.log("Sequence completed");
               },
