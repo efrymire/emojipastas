@@ -7,7 +7,6 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   const [style, setStyle] = useState("default");
-  console.log(style);
   return (
     <>
       <div
@@ -19,7 +18,7 @@ export default function Home() {
             sequence={[
               "emojp",
               200,
-              "emoji pastaz",
+              "emoji past ",
               250,
               "emoji pastas archive project",
               () => {
@@ -83,7 +82,7 @@ export default function Home() {
           )}
         </div>
       </div>
-      <footer className="text-sm text-gray-500">
+      <footer className="text-sm text-gray-500 max-w-4/5 mx-6">
         This project is self-funded and maintained by The Green Couch group.
       </footer>
     </>
